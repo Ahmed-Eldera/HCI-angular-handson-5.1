@@ -1,0 +1,10 @@
+h1 {
+  font-size: 3rem;
+  /* text-align: center; */
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
