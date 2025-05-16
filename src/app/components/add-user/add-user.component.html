@@ -1,0 +1,15 @@
+<h3> Add User </h3>
+<label for="fname">First Name:</label><br>
+<input id="fname" title="First Name" [(ngModel)]="firstname" type="text"/> <br>
+<label for="sname">Second Name:</label><br>
+<input id="sname" [(ngModel)]="secondname" type="text"/><br>
+<label for="dname">Display Name:</label>  <br>  
+<input id="dname" [(ngModel)]="displayname"  type="text"/><br> 
+<h3> myForm Details</h3>
+<div>
+<p >myForm Details: <br> {{'{'}}</p>
+<pre *ngIf="firstname !== ''">   First Name: {{firstname}}<br></pre>
+<pre *ngIf="secondname !== ''">   Second Name: {{secondname}}<br></pre>
+<pre *ngIf="displayname !== ''">   Display Name: {{displayname}}<br></pre>
+<p> {{'}'}}<br></p>
+</div>

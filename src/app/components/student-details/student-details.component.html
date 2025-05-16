@@ -1,0 +1,5 @@
+<h3>Student Details</h3>
+<input [(ngModel)]="username" (click)="reset()" (input)="edit(username)" type="text"/>
+<p>{{ username }}</p>
+<button (click)="addNewUser()">Add New User</button>
+<p *ngIf="submit">Student with ID-{{ username }} has been created!</p>
